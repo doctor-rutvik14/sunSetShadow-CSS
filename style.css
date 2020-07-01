@@ -1,0 +1,48 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    background-image: linear-gradient(to bottom,red,  orange,yellow);
+    height: auto;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.container
+{
+    height: 700px;
+    width: 700px;
+    position: absolute;
+    margin: auto;
+    top: 0%;
+    bottom: 0%;
+    left: 0%;
+    right: 0%;
+}
+.sun{
+    height: 200px;
+    width: 200px;
+    background-image: linear-gradient(to top,red, orange, yellow);
+    border-radius: 50%;
+    position: relative;
+    left: 700px;
+    top: -30px;
+}
+.text,.Shadow{
+    font-size: 100px;
+    font-family: 'Times New Roman';
+    position: relative;
+}
+.Shadow{
+    color: rgba(3, 3, 3, 0.301);
+    transform-origin: 2% 13%;
+    transform: rotate(-40deg) skew(40deg) scaley(1.39) ;
+    top:395px;
+    left: -60px;
+    right: 20px;
+}
+.text{
+    color: #ffffff;
+    transform: rotate(-40deg) skew(-40deg) ;
+    right: 0px;
+    left: 0px;
+    top: 0px;
+}
