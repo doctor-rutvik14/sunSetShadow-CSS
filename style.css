@@ -1,7 +1,7 @@
 body{
     margin: 0%;
     padding: 0%;
-    background-image: linear-gradient(to bottom,red,  orange,yellow);
+    background-image: llinear-gradient(#f4508c, #e99664);
     height: auto;
     background-attachment: fixed;
     background-size: cover;
@@ -20,11 +20,33 @@ body{
 .sun{
     height: 200px;
     width: 200px;
-    background-image: linear-gradient(to top,red, orange, yellow);
+    background-image: #f3ebae;
     border-radius: 50%;
     position: relative;
     left: 700px;
     top: -30px;
+}
+.sun::after{
+    position: absolute;
+    top:-10%;
+    left: -10%;
+    border-radius: 50%;
+    content: '';
+    background-color: #f3ebae;
+    opacity: 0.5;
+    height: 120%;
+    width: 120%;
+}
+.sun::before{
+    position: absolute;
+    top:-20%;
+    left: -20%;
+    border-radius: 50%;
+    content: '';
+    background-color: #f3ebae;
+    opacity: 0.5;
+    height: 140%;
+    width: 140%;
 }
 .text,.Shadow{
     font-size: 100px;
