@@ -20,7 +20,7 @@ body{
 .sun{
     height: 200px;
     width: 200px;
-    background-image: #f3ebae;
+    background-color: #f3ebae;
     border-radius: 50%;
     position: relative;
     left: 700px;
