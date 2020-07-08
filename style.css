@@ -26,7 +26,7 @@ body{
     left: 700px;
     top: -30px;
 }
-.sun::after{
+.sun::before{
     position: absolute;
     top:-10%;
     left: -10%;
@@ -37,7 +37,7 @@ body{
     height: 120%;
     width: 120%;
 }
-.sun::before{
+.sun::after{
     position: absolute;
     top:-20%;
     left: -20%;
